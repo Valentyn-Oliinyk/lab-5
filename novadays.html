@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <title>Сьогодення</title>
+    <style>
+        h1{
+            font-size: 22px;
+            text-align: center;
+        }
+        #q{
+            font-style: italic;
+        }
+        h2{
+            text-align: center;
+        }
+        .odd{
+            background-color: grey;
+        }
+        .even{
+            background-color: white;
+        }
+       .cursor{
+        cursor: pointer;
+
+       }
+        #p{
+            background-color: blue;
+        }
+        @media(min-width: 992px){
+            div{
+                display: flex;
+            }
+        }
+        @media(min-width: 768px) and (max-width: 992px){
+            section{
+                display: flex;
+                
+            }
+        }
+        @media(max-width: 768px){
+            section{
+                display: flex;
+                
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Сьогодення Олійник Валентин Ярославович</h1>
+    <a id="q" href="index.html">Назад на головну</a>
+    
+    <div>
+       
+        <section>
+            <h2 class="one">Мій типовий список покупок</h2>
+            <ul>
+                <li class="odd">хліб</li>
+                <li class="even">
+                    м`ясо
+                    <ul>
+                        <li class="odd">філе</li>
+                        <li class="even">ковбаска</li>
+                        <li class="odd">сало</li>
+                    </ul>
+                </li>
+                <li class="even">молоко</li>
+                <li class="odd">яйці</li>
+                <li class="even">
+                    крупи
+                    <ul>
+                        <li class="odd">гречка</li>
+                        <li class="even">рис</li>
+                        <li class="odd">вівсянка</li>
+                    </ul>
+                </li>
+                <li class="even">
+                    солодощі
+    
+                    <ul>
+                        <li class="odd">цукерки</li>
+                        <li class="even">печиво</li>
+                    </ul>
+                </li>
+                <li class="odd">вода</li>
+                <li class="even">овочі</li>
+                <li class="odd">фрукти</li>
+                <li class="even">пироги</li>
+                <li class="odd">масло</li>
+            </ul>
+        </section>
+       <section>
+        <h2 clas="one">Мій улюблений десерт</h2>
+        <ol>
+            <li>
+                замішати сухі інгрідієнти
+                <ol>
+                    <li>150 грам муки</li>
+                    <li>3 грама ванільного цукру</li>
+                    <li>18 грам розпушувача</li>
+                </ol>
+            </li>
+            <li>збиваємо яйці міксером додаючи цукор</li>
+            <li class="cursor">змішуємо сухі інгредієнти з яйцями</li>
+            <li id="p" >розділяємо отримане тісто на 4 частини </li>
+            <li class="cursor">розливаємо у формочки</li>
+            <li>ставимо у духовку</li>
+            <li>печемо 15 хвилин при температурі 180 градусів</li>
+            <li>після запікання акуратно достати з духовки</li>
+            <li>кекси можна подавати на стіл, їх можна прекрасити :</li>
+                <ol>
+                    <li>родзинками</li>
+                    <li>шоколадом</li>
+                    <li>пудрою</li>
+                </ol>
+            <li>по бажанню можна посипати пудрою</li>
+        </ol>
+       </section>
+    </div>
+</body>
+</html>
